@@ -2,9 +2,17 @@
 
 # api
 flask==1.0.2
+joblib>=0.14.1,<0.15.0
+numpy>=1.18.1,<1.19.0
+pandas>=0.25.3,<0.26.0
+scikit-learn>=0.22.1,<0.23.0
 
 # schema validation
 marshmallow==2.17.0
 
-# Install from gemfury
-regression-model==0.1.0
+# testing requirements
+pytest>=5.3.2,<6.0.0
+
+# local regression_model package
+# update with your local path
+-e "/Users/jayakarthick/Study/Deploying_ML_Models/deploying-machine-learning-models/packages/regression_model"
